@@ -23,3 +23,10 @@ else if (day==7){
 }else{
 console.log('Bunday hafta yo`q');
 }
+//yoki bunaqa qilib yozsa bo'ladi
+let weekDays = ['Dushanba', 'Seshanba', 'Chorshanba', 'Payshanba', 'Juma', 'Shanba', 'Yakshanba']
+if (day<=7){
+    console.log(weekDays[day-1]);// massivdan -1 qilib olib tashash kere
+}else {
+    console.log('Bunday hafta yo`q');
+}
