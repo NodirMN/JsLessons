@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+            <h1>Tiplar</h1>
+            <h1>Ozgaruvchi let 'O'zgaruvchi'= </h1>
+
+<script>
+               /////////// Tiplar//////////
+
+    console.log('Nodir');//string - satirli tip
+    console.log(13)//integer - butun son
+    console.log(3.6);//float - haqiqiy son
+    console.log(true);//boolean -mantiqiy tip
+    console.log(null);//nul - nul
+    console.log({title:'Nodir',bdate:1994}); // Obyekt tip kaliti qiymati //
+    console.log(['Nodir', 'Aziz', 'Begzod']); // massiv array-deb etiladi
+
+
+                ////////// Ozgaruvchilar///////
+
+            
+    let a = 13
+    let human = 'Ali'
+    console.log('Ismi:',human,'Yosh:',a);
+    console.log('   Ismi:' +human+ '   Yosh:' +a);
+    console.log(`   Ismi: ${human}  Yosh:${a+1} `);
+
+    ///Massiv 
+    let people = ['Nodir', 'Aziz', 'Begzod']
+    console.log(people); 
+    console.log(people[2]);
+
+    ////Obyekt
+    let men = {
+        men: 'Nodir',
+        bdate: 1994,
+        age: null
+    }
+    console.log(men.men); //holasa bunaqa
+    men.age = 27 // maydonga null ga qiymat
+    console.log(men);
+    console.log(men['bdate']);///holasa massivdaka murojat
+
+        //////Matematik ammalr qisa bo'ladi
+    let sona = 4
+    let sonb = 5
+
+    console.log('Natija:',sona+sonb);
+    console.log('Natija:',sona*sonb);
+    console.log('Natija:',sona/sonb);
+    console.log('Natija:',sona-sonb);
+    console.log('Natija:',sona%sonb);
+
+       /// Vazifa olma////
+    
+let olmaNarxi = 5000, olmaKg=3
+let olxoriNarxi = 3000, olxoriKg=1.5
+let nokNarxi = 12000, nokKg =4
+let umumiy = olmaKg*olmaNarxi+olxoriNarxi*olxoriKg+nokKg*nokNarxi
+console.log('Umuniy summa:', umumiy, 'so`m');
+
+
+            ///Shart aperatori//if//
+
+let yosh = 16
+if(yosh>=18){
+    console.log('Voyaga yetgan');
+}else{
+    console.log('Voyaga yetmagan');
+}
+
+
+        //////Vazifa///////
+let dastur = 'JavaScript'
+if(dastur ==  'Python'){
+    console.log('Django');
+}
+if(dastur ==  'JavaScript'){
+    console.log('Vue');
+}
+            /////ikkalasi teng
+let sonA = 12   //qiymat bor 
+let sonB = '122' //qiymat bor :) false yozssa ten emaas chiqadi == teng === tengmas chiqadi
+if(sonA=sonB){
+    console.log('Teng');
+}else{
+    console.log('Teng emas');
+}
+</script>
+</body>
+</html>
