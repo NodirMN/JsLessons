@@ -61,39 +61,39 @@ if(b<=5 && b!==0){
 
 let month = 2
 if(month==1){
-    console.log('Yanvar');
+    console.log('Yanvar',31);
 }else if(month==2){
-    console.log('Fevral');
+    console.log('Fevral',28);
 }
 else if(month==3){
-    console.log('Mart');
+    console.log('Mart',31);
 }
 else if(month==4){
-    console.log('Aprel');
+    console.log('Aprel',30);
 }
 else if(month==5){
-    console.log('May');
+    console.log('May',31);
 }
 else if(month==6){
-    console.log('Iyun');
+    console.log('Iyun',30);
 }
 else if(month==7){
-    console.log('Iyul');
+    console.log('Iyul',31);
 }
 else if(month==8){
-    console.log('Avgust');
+    console.log('Avgust',31);
 }
 else if(month==9){
-    console.log('Sentabr');
+    console.log('Sentabr',30);
 }
 else if(month==10){
-    console.log('Oktabr');
+    console.log('Oktabr',31);
 }
 else if(month==11){
-    console.log('Noyabr');
+    console.log('Noyabr',30);
 }
 else if(month==12){
-    console.log('Dekabr');
+    console.log('Dekabr',31);
 }else{
     console.log('Xatolik');
 }
