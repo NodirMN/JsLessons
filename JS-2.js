@@ -93,7 +93,7 @@ else if(month==11){
     console.log('Noyabr');
 }
 else if(month==12){
-    console.log('Dekabir');
+    console.log('Dekabr');
 }else{
-    console.log('Oyni kiriting');
+    console.log('Xatolik');
 }
