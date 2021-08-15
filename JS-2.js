@@ -51,6 +51,7 @@ else if(b == 5){
     console.log('1dan 5gacham bahoni tanlang');
 }
 
+//////////////Oy
 
 let baholar = ['Yomon','Qoniqarsiz','Qoniqarli','Yahshi','A`lo']
 if(b<=5 && b!==0){
@@ -94,6 +95,26 @@ else if(month==11){
 }
 else if(month==12){
     console.log('Dekabr',31);
+}else{
+    console.log('Xatolik');
+}
+
+
+///////Amal bajaring
+let t = 60
+let s = 5
+let amal = 2
+
+if(amal == 1){
+    console.log(t+s);
+}else if(amal==2){
+    console.log(t/s) ;
+}else if(amal==3){
+    console.log(t-s);
+}else if(amal==4){
+    console.log(t*s);
+} else if (amal == 5) {
+    console.log(t % s);
 }else{
     console.log('Xatolik');
 }
