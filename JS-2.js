@@ -182,3 +182,27 @@ switch (val) {
         console.log('Xatolik');
         break;
 }
+
+/////////////Obyekt pul
+let many = 100000
+let valut = 'evro'
+let kurss = {
+    dollar:10500, 
+    rub:125, 
+    evro:12500
+}
+
+switch (val) {
+    case 'dollar':
+        console.log(som / kurss.dollar, 'dollar');
+        break;
+    case 'rub':
+        console.log(som / kurss.rub, 'rub');
+        break;
+    case 'evro':
+        console.log(som / kurss.evro, 'evro');
+        break;
+    default:
+        console.log('Xatolik');
+        break;
+}
