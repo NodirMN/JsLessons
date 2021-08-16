@@ -50,9 +50,16 @@ for (let f=2; f<=10;f++){
 //////////////O'rta arifmetik
 
 let massa = [22,112,1,2,3,45,]
-for (let orta=1; orta<massa.length; orta++){
-
+let rr = 0
+let summa = 0
+while (rr<massa.length){
+    console.log(massa[rr]);
+    summa = summa +massa[rr]
+    rr++
 }
+console.log('summa',summa);
+let average = summa/massa.length
+console.log('Masssiv elementlari o`rtacha qiymati',average)
 
 
 //////////Son boluvchilari
