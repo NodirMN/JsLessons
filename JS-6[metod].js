@@ -38,11 +38,27 @@ let res = a
     b = res
     console.log('a=', a, 'b=', b);
 
-    //////////////////////// joy almashtirish
-    
+//////////////////////// joy almashtirish
+
 let humans = ['Nodir', 'Begzod', 'Sherzod','Aziz']
 console.log(humans);
 let rezhumans = humans[0]
 humans[0] = humans[humans.length-1]
 humans[humans.length-1] = rezhumans
 console.log(humans);
+
+console.log('xxxxxxxxxxxxxxxxxxxxxxx');
+
+/////////////////Juft toq Massiv
+let arr = [2,33,44,35,26,7,8,9,10,11,12,13,14,15]
+let juft = []
+let toq = []
+for(let index=0;index<arr.length;index++){
+    if(arr[index]%2 == 0){
+        juft.push(arr[index])
+    }else{
+        toq.push(arr[index])
+    }
+}
+console.log('Juftlardan iborat massiv', juft);
+console.log('Toqlardan iborat massiv', toq);
