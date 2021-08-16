@@ -14,6 +14,7 @@ for (let qs=0; qs<numb.length; qs++){
 }
 
 /////////massiv qo'shish
+
 let mat = [22, 33, 32, 12, 5, 6, 78, ]
 let son = 0
 for (let lson=0; lson<mat.length; lson++){
@@ -22,6 +23,7 @@ for (let lson=0; lson<mat.length; lson++){
 }
 
 //////////////////////massiv juft ko'paytmasi
+
 console.log('////////////////');
 let sonlar = [3,7,6,12,8]
 let sons = 1
@@ -31,11 +33,33 @@ for (let index=0; index<sonlar.length; index++){
         sons*=mat[index]
     }
 } 
+
+
 //////// Karra jadval
+
+
 let n = 3
 for (let f=2; f<=10;f++){
     console.log(f +'Karra jadvali');
     for (let x=2;x<=10;x++){
         console.log(f+"*"+x+'='+x*f);
+    }
+    console.log('');
+}
+
+//////////////O'rta arifmetik
+
+let massa = [22,112,1,2,3,45,]
+for (let orta=1; orta<massa.length; orta++){
+
+}
+
+
+//////////Son boluvchilari
+
+let j = 32
+for (let d=1;d<=j;d++){
+    if (j%d==0){
+        console.log(d);
     }
 }
