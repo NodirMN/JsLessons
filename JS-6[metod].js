@@ -37,3 +37,12 @@ let res = a
     a = b
     b = res
     console.log('a=', a, 'b=', b);
+
+    //////////////////////// joy almashtirish
+    
+let humans = ['Nodir', 'Begzod', 'Sherzod','Aziz']
+console.log(humans);
+let rezhumans = humans[0]
+humans[0] = humans[humans.length-1]
+humans[humans.length-1] = rezhumans
+console.log(humans);
