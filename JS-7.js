@@ -1,4 +1,4 @@
-///O'rin almashtirib o'sish bo'yicha tartiblash
+///O'sish bo'yicha tartiblash
 
 let mas = [55,44,2,3,43,51,22,37,83]
 console.log(mas);
@@ -12,3 +12,17 @@ for(let i=0; i<mas.length;i++){
         }
 }
 console.log(mas);
+
+
+//Massivi eng katta elementi
+
+let massiv = [55, 44, 2, 3, 43, 51, 22, 37, 83]
+let max = massiv[0]
+
+for(let index=1;index<massiv.length;index++){
+    if (max<massiv[index]){
+        max = massiv[index]
+    }
+}
+console.log('Massiv eng akatta elementi:',max);
+
