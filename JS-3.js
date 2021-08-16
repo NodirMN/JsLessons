@@ -20,11 +20,45 @@ for (let n = 10; n >0; n--) { /////10.9.8....
 }
 
 //////
+
 let m = 13
 let l = 3
 for (let  h=l;h<m;h++){
-    if (h==7){
+    if (h==7){   ///6da o'chadi
         break
     }
     console.log(h);
+}
+///////
+
+let p = 10
+let j = 1
+for (let f = j; f < p; f++) {
+    if (f == 7) { ///7 yoq bolib ketadi
+        continue
+    }
+    console.log(f);
+}
+
+////////////  Juft va Toq
+
+let z = 23
+for (let x=1;x<=z;x++)  ////{}-ishlasa bo'ladi
+if(x%2==0)
+    console.log('Juft',x);
+else 
+    console.log('Toq',x);
+    
+//////////////Shokolad
+let narx = 22500
+for(let ves =0.1; ves<=1;ves+=0.1){
+    console.log(ves,'kg==>',narx*ves);
+}
+
+console.log('//////////////////////////');
+///////////// Toq sonlar teskari
+let cc = 4
+let rr = 24
+for(let ll=rr;ll>cc;ll--){
+    console.log(ll);
 }
