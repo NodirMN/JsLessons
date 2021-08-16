@@ -68,7 +68,7 @@ console.log('xxxxxxxxxxxxxxxxx');
 
 /////////////////Massiv eng ko'p qaytarilgan son o'chirish
 
-let massiv = [2, 33, 44, 35, 26, 7, 8, 9, 10,2,2,11, 12, 13, 14, 15]
+let massiv = [2, 33, 44, 35, 26, 7, 8, 9, 10, 2, 2,11, 12, 13, 14, 15,15]
 let i =  0
 
 while(i<massiv.length){
