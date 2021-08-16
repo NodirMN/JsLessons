@@ -21,4 +21,21 @@ for (let lson=0; lson<mat.length; lson++){
     console.log(mat[lson],son);
 }
 
-//////////////////////
+//////////////////////massiv juft ko'paytmasi
+console.log('////////////////');
+let sonlar = [3,7,6,12,8]
+let sons = 1
+for (let index=0; index<sonlar.length; index++){
+    if(sonlar[index]%2==0){
+        console.log(sonlar[index],sons);
+        sons*=mat[index]
+    }
+} 
+//////// Karra jadval
+let n = 3
+for (let f=2; f<=10;f++){
+    console.log(f +'Karra jadvali');
+    for (let x=2;x<=10;x++){
+        console.log(f+"*"+x+'='+x*f);
+    }
+}
