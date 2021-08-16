@@ -27,3 +27,13 @@ console.log(boshidanochirish);
 let xjochirish = [22, 33, 44, 56, 71, 12, 32]
 xjochirish.splice(1,4) // 1dan 4 nechtasini o'chirish
 console.log(xjochirish);
+
+///////////a ni b ga b resga berish O'rin almashtirish
+
+let a = 2
+let b = 5
+console.log('a=',a, 'b=',b);
+let res = a
+    a = b
+    b = res
+    console.log('a=', a, 'b=', b);
