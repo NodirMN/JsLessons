@@ -50,6 +50,7 @@ console.log(humans);
 console.log('xxxxxxxxxxxxxxxxxxxxxxx');
 
 /////////////////Juft toq Massiv
+
 let arr = [2,33,44,35,26,7,8,9,10,11,12,13,14,15]
 let juft = []
 let toq = []
@@ -62,3 +63,18 @@ for(let index=0;index<arr.length;index++){
 }
 console.log('Juftlardan iborat massiv', juft);
 console.log('Toqlardan iborat massiv', toq);
+
+console.log('xxxxxxxxxxxxxxxxx');
+
+/////////////////Massiv eng ko'p qaytarilgan son o'chirish
+
+let massiv = [2, 33, 44, 35, 26, 7, 8, 9, 10,2,2,11, 12, 13, 14, 15]
+let i =  0
+
+while(i<massiv.length){
+    if(massiv[i]%2==0)
+    console.log(massiv[i]);
+    massiv.splice(i,1)
+    i++
+}
+console.log(massiv);
