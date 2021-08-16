@@ -26,3 +26,22 @@ for(let index=1;index<massiv.length;index++){
 }
 console.log('Massiv eng akatta elementi:',max);
 
+//////////////////eng kichik elementi
+let massi = [55, 44, 2, 3, 43, 51, 22, 37, 83]
+let maxi = massi[0]
+let maxiindex = 0
+let maximin = massi[0]
+let maximinindex = 0
+for (let inde = 1; inde < massi.length; inde++) {
+    if (maxi < massi[inde]) {
+        maxi = massi[inde]
+        maxiindex = inde
+    }
+    if (maximin > massi[inde]) {
+        maximin = massi[inde]
+        maximinindex = inde
+    }
+    
+}
+console.log('Massiv eng katta elementi:', maxi);
+console.log('Massiv eng kichik elementi:', maximinindex);
