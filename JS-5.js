@@ -60,8 +60,11 @@ while (rr<massa.length){
 console.log('summa',summa);
 let average = summa/massa.length
 console.log('Masssiv elementlari o`rtacha qiymati',average)
-
-
+for(rr=0;rr<massa.length;rr++){
+    if(massa[rr]<average){
+        console.log(massa[rr]);///for bilan yozilgani
+    }
+}
 //////////Son boluvchilari
 
 let j = 32
