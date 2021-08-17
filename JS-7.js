@@ -74,7 +74,7 @@ console.log(tex.toLowerCase()); //Kichkina harif qilib beradi
 console.log(tex.replace('el', '77')); // 1rinchis almashtirish 2chisi qaysi zo'z yoki son
 console.log(tex.replaceAll('el', '77')) //hamsini o'zgartiri beradi
 console.log(tex.split(' ')) //massiv qib beradi ' ' ichiga luboy sinvol qisa 
-onsole.log(tex.indexOf(''))//yozgan harifi yoki so`zi topib beradi
+onsole.log(tex.indexOf(''))//yozgan harifi yoki so`zi topib beradi oxiridan indexLast qidiradi
 
 
 
