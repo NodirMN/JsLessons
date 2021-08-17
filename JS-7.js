@@ -45,3 +45,16 @@ for (let inde = 1; inde < massi.length; inde++) {
 }
 console.log('Massiv eng katta elementi:', maxi);
 console.log('Massiv eng kichik elementi:', maximinindex);
+
+
+/////////////////////Text ichidagi unli hariflar
+
+let text = 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores voluptatum quasi aperiam corporis maiores voluptates dicta distinctio incidunt sunt, tempora, officia in. Tempore velit ex deleniti rem? Saepe, voluptatibus consectetur!'
+let son = 0
+
+for(let s=0;s<text.length;s++){
+    if (text[s] == 'a' || text[s] == 'o' || text[s] == 'u' || text[s] == 'e'){
+    son++
+    }
+}
+console.log('Unli hariflar:',son);
