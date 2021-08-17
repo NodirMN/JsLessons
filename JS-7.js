@@ -63,3 +63,33 @@ for(let s=0;s<text.length;s++){
 soz++
 console.log('So`zlar soni:',soz);
 console.log('Unli hariflar:',son);
+
+/////////////////////////
+
+let tex = 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores voluptatum quasi aperiam corporis maiores voluptates dicta distinctio incidunt sunt, tempora, officia in. Tempore velit ex deleniti rem? Saepe, voluptatibus consectetur!'
+console.log(tex.length);
+console.log(tex.toUpperCase()); ///Kott harif
+console.log(tex.toLowerCase()); //Kichkina harif qilib beradi
+
+console.log(tex.replace('el', '77')); // 1rinchis almashtirish 2chisi qaysi zo'z yoki son
+console.log(tex.replaceAll('el', '77')) //hamsini o'zgartiri beradi
+console.log(tex.split(' ')) //massiv qib beradi ' ' ichiga luboy sinvol qisa 
+
+/////stringga qaytarsa bo'adi
+
+let text_mas = ["Lorem", "ipsum", "dolor", "sit", "amet", "consectetur,", "adipisicing", "elit.", "Asperiores", "voluptatum", "quasi", "aperiam", "corporis", "maiores", "voluptates", "dicta", "distinctio", "incidunt", "sunt,", "tempora,", "officia", "in.", "Tempore", "velit", "ex", "deleniti", "rem?", "Saepe,", "voluptatibus", "consectetur!"]
+console.log(text_mas.join(' ')); //qoshib beradi
+
+
+/////So'z teskarisi
+
+let names = 'Nodir'
+console.log(names.split('').reverse().join('')); //oson usuli
+
+let revName = ''
+for(let si=names.length-1;si>=0;si--){
+    revName += names[si]
+}
+console.log(names);
+console.log(revName);
+
