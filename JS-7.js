@@ -93,3 +93,19 @@ for(let si=names.length-1;si>=0;si--){
 console.log(names);
 console.log(revName);
 
+////////////////  xarif almashtirish
+let lat = {
+    'a' : 'a',
+    'b' : 'б',
+    's' : 'с',
+    'h' : 'x',
+    'l' : 'л'
+}
+let zapas = text
+for(let tt=0;tt<zapas.length;tt++){
+    if(lat[zapas[tt]]){
+        zapas = zapas.replaceAll(zapas[tt],lat[zapas[tt]])
+    }
+}
+
+console.log(zapas);
