@@ -109,3 +109,28 @@ function findLetter(text,l){
 }
 let t = 'lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci ab sit quisquam iure ipsam consequuntur dolorem, eius eveniet temporibus itaque iusto nobis aliquid ratione est. Rerum exercitationem architecto sed nisi.'
 console.log(findLetter(t,'d')); ///berilgan d nechi marta uchrashini ko'rsatadi
+
+////////////////////telegraf prise
+
+let text = 'lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci ab sit quisquam iure ipsam consequuntur dolorem, eius eveniet temporibus itaque iusto nobis aliquid ratione est. Rerum exercitationem architecto sed nisi.'
+
+function calcText(text, price) {
+    return text.length*price
+}
+console.log('Teks soni:',text.length);
+console.log(calcText(text,2),'so`m'); // 2 bu so`m
+
+
+/////////////////////////////// Parol tekshirish
+
+function chekPass(pass){
+    let n = 0
+    for (let i=0;i<pass.length;i++){
+        if (parseInt(pass[i])>=0){
+            n++
+        }
+    }
+    return (n>=2 && pass.length>=8) ? true : false
+}
+
+console.log((chekPass('Nodir1994'))? 'Paroliz ishonchli':'Parolingiz ishonchsiz');
