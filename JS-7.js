@@ -74,7 +74,7 @@ console.log(tex.toLowerCase()); //Kichkina harif qilib beradi
 console.log(tex.replace('el', '77')); // 1rinchis almashtirish 2chisi qaysi zo'z yoki son
 console.log(tex.replaceAll('el', '77')) //hamsini o'zgartiri beradi
 console.log(tex.split(' ')) //massiv qib beradi ' ' ichiga luboy sinvol qisa 
-onsole.log(tex.indexOf(''))//yozgan harifi yoki so`zi topib beradi oxiridan indexLast qidiradi
+console.log(tex.indexOf(''))//yozgan harifi yoki so`zi topib beradi oxiridan indexLast qidiradi
 
 
 
@@ -89,11 +89,11 @@ console.log(text_mas.join(' ')); //qoshib beradi
 
 let names = 'Nodir'
 console.log(names.split('').reverse().join('')); //oson usuli
-
 let revName = ''
 for(let si=names.length-1;si>=0;si--){
     revName += names[si]
 }
+
 console.log(names);
 console.log(revName);
 
@@ -113,3 +113,23 @@ for(let tt=0;tt<zapas.length;tt++){
 }
 
 console.log();
+
+
+////////////////////Sort  sartirofka qilish
+let humans =  ['Javohir','Begzod','Alisher','Alisher','Zohid']
+let saon  = [23,12,44,54,32,8,86,34]
+console.log(humans.sort().reverse());
+console.log(saon.sort().reverse());
+
+
+////////////////////////////////
+
+let lor = 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores voluptatum quasi aperiam corporis maiores voluptates dicta distinctio incidunt sunt, tempora, officia in. Tempore velit ex deleniti rem? Saepe, voluptatibus consectetur!'
+
+
+lortex = lortex.replaceAll('.','')
+lortex = lortex.replaceAll(',','') //yoki nuqta qo'yib davom ettirasa bo'ladi funksiyalani 
+lortex = lortex.replaceAll('?','')
+lortex = lortex.replaceAll('!','')
+console.log(lortex);
+let lortexe = lor.split(' ')
