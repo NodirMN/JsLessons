@@ -82,3 +82,30 @@ function m2km(m){
     return m*1.609
 }
 console.log(m2km(130), 'km');
+
+/////////////////////1dan n gacha bo'lgan son
+function fact(n){
+    let p = 1
+    for (let i = 1; i<=n; i++){
+        p*=i
+    }
+    return p
+}
+console.log(fact(5));
+
+console.log('xxxxxxxxxxxxxxxxxxxx');
+
+
+///////////////////// Harif nechi marta uchrashi
+
+function findLetter(text,l){
+    let num = 0
+    for (let i = 0; i<text.length; i++){
+        if (text[i].toLowerCase()==l.toLowerCase()){
+            num++
+        }
+    }
+    return num
+}
+let t = 'lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci ab sit quisquam iure ipsam consequuntur dolorem, eius eveniet temporibus itaque iusto nobis aliquid ratione est. Rerum exercitationem architecto sed nisi.'
+console.log(findLetter(t,'d')); ///berilgan d nechi marta uchrashini ko'rsatadi
