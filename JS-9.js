@@ -62,4 +62,23 @@ for (let i=0;i<7;i++){
 console.log(arr);
 
 
-//////////////////////
+//////////////////////farngeyt
+
+function f2c(f){
+    return 5/9*(f-32)
+}
+console.log(f2c(125),'celcy');
+
+//////////////////////dyum
+
+function d2mm(d){
+    return d*25.4
+}
+console.log(d2mm(15),'mm');
+
+///////////////////mill km
+
+function m2km(m){
+    return m*1.609
+}
+console.log(m2km(130), 'km');
